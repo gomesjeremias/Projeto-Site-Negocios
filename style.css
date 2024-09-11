@@ -1,0 +1,37 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    padding-top: 20px;
+    /* adiciona espaçamento */
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+
+
+
+
+
+
+img {
+
+    width: auto;
+}
+
+
+.circulo {
+
+    background-color: #3e3f3e;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    clip-path: circle(600px at right 800px);
+
+}
